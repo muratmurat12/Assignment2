@@ -5,7 +5,7 @@ body{
     background-color: #fa425e;
     color: rgb(236, 230, 230); 
 }
-container-head{
+.container-fluid{
     padding: 2.5% 5% 12%; 
 }
 .navbar {
@@ -125,4 +125,29 @@ container-head{
   
   .pricing-col {
     padding: 4% 2%;
+  }
+  
+  #cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10% 20% 5%;
+  }
+  
+  .cta-text {
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.5;
+  }
+  
+  #footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 8% 20% 4%;
+  }
+  
+  .footer-icon{
+    color: grey;
+    padding: 18px 10px;
   }
